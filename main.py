@@ -6,8 +6,8 @@ import _thread
 
 wlan = network.WLAN(network.STA_IF)
 wlan.active(True)
-ssid = 'MilesLivesAlone2'
-password = 'Penisland!'
+ssid = ''
+password = ''
 wlan.connect(ssid, password)
 
 max_wait = 30  # Increase the timeout to 30 seconds
